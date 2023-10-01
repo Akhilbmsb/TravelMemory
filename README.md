@@ -124,6 +124,11 @@ Screenshots
 ![Screenshot (459)](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/9f45ad3a-3de9-4a7a-aab8-d611e483b43d)
 ![Screenshot (458)](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/5d2d2bbf-c832-4150-81c8-8446fd78c554)
 
+Architecture Diagram
+
+![image](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/d45a17b7-ca25-46fa-b37a-435326350131)
+
+
 
 
 
