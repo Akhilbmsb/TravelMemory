@@ -3,7 +3,8 @@ const tripModel = require('../models/trip.model')
 async function tripAdditionController(req, res){
     console.log(req.body)
     try{
-        let tripDetail = tripModel.Trip({
+        let tripDetail = travelmemory
+        .tripdetails({
             tripName: req.body.tripName,
             startDateOfJourney: req.body.startDateOfJourney,
             endDateOfJourney: req.body.endDateOfJourney,
@@ -26,7 +27,8 @@ async function tripAdditionController(req, res){
 
 async function getTripDetailsController(req,res){
     try{
-        tripModel.Trip.find({})
+        travelmemory
+.tripdetails.find({})
         .then(doc => res.send(doc))
         .catch(err => res.send('SOMETHING WENT WRONG WHILE FETCHING'))
     }catch(error){
@@ -37,7 +39,8 @@ async function getTripDetailsController(req,res){
 
 async function getTripDetailsByIdController(req,res){
     try{
-        tripModel.Trip.findById(req.params.id)
+        travelmemory
+.tripdetails.findById(req.params.id)
         .then(doc => res.send(doc))
         .catch(err => res.send('Nothing in database'))
     }catch(error){
