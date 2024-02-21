@@ -109,6 +109,8 @@ scrape_configs:
 ![Screenshot (3013)](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/e139aaae-6adf-49e6-ab10-8aa27ded5898)
 ![Screenshot (3009)](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/9905c105-3863-4d3f-9697-162f557174f3)
 ![Screenshot (3008)](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/3b878627-ca5f-4e07-ba91-6f6151d5a1ec)
+![image](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/3a8f3ff1-71ac-40fc-b2d3-8e4f32342dbd)
+
 ![Screenshot 2024-02-21 211837](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/c9d56ddf-ef2d-4057-8050-2acc6daf4afc)
 ![image](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/e3c1ce5e-b8f8-436a-9768-d470e5ef4fe1)
 
