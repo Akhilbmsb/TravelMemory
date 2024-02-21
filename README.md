@@ -82,11 +82,36 @@ sudo node index.js
 
 ```
 
+```
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: prometheus
+    static_configs:
+      - targets: ["localhost:3001"]
+```
+
+```
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: prometheus
+    static_configs:
+      - targets: ["localhost:3001"]
+  - job_name: node_exporter
+    static_configs:
+      - targets: ["localhost:3001"]
+```
+
 ![Screenshot (3014)](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/ef2a755d-e4a9-45a0-be2b-0077f54e17fb)
 ![Screenshot (3013)](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/e139aaae-6adf-49e6-ab10-8aa27ded5898)
 ![Screenshot (3009)](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/9905c105-3863-4d3f-9697-162f557174f3)
 ![Screenshot (3008)](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/3b878627-ca5f-4e07-ba91-6f6151d5a1ec)
 ![Screenshot 2024-02-21 211837](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/c9d56ddf-ef2d-4057-8050-2acc6daf4afc)
+![image](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/e3c1ce5e-b8f8-436a-9768-d470e5ef4fe1)
+
 
 
 
