@@ -82,52 +82,11 @@ sudo node index.js
 
 ```
 
-Step3 - Setting up Reverse Proxy for the Frontend & Backend 
-
-Reverse proxy configuration for Backend
-
-sudo apt install nginx
-
-sudo systemctl status nginx
-
-sudo unlink /etc/nginx/sites-enabled/default
-
-cd /etc/nginx/sites-available/
-
-sudo nano server.conf
-
-server { 
-listen 80;
-location / {
-proxy_pass http://server_address;
-}}
-
-
-
-ln -s /etc/nginx/sites-available/custom_server.conf /etc/nginx/sites-enabled/server.conf
-
-sudo service nginx configtest
-
-sudo service nginx restart
-
-Screenshots
-![Screenshot (469)](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/8cd2acc9-c7da-436b-9411-0846c49ba903)
-![Screenshot (468)](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/a0f72774-2b4e-44f1-b72c-7c782f38f45a)
-![Screenshot (467)](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/f6fa2c8b-d2cf-4af8-a71f-b8fea7e3e366)
-![Screenshot (466)](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/0486519c-8e55-4e9b-b272-c0f750e1e5ca)
-![Screenshot (465)](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/5ee1c822-e649-4a81-8ce2-9b2b9821dd2c)
-![Screenshot (464)](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/0b83af8c-89b5-4634-9fbe-80feb530b54d)
-![Screenshot (463)](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/1c37985e-642a-491f-b194-2aa4fb45991a)
-![Screenshot (462)](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/cbe3e0c1-6b94-4126-8aa3-f08cdbaaa461)
-![Screenshot (461)](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/38d59dc3-145b-47f7-8173-4fc4bba8984c)
-![Screenshot (460)](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/e59398be-37ca-4cd8-bfe6-12c14a1d4cf9)
-![Screenshot (459)](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/9f45ad3a-3de9-4a7a-aab8-d611e483b43d)
-![Screenshot (458)](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/5d2d2bbf-c832-4150-81c8-8446fd78c554)
-
-Architecture Diagram
-
-![image](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/d45a17b7-ca25-46fa-b37a-435326350131)
-
+![Screenshot (3014)](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/ef2a755d-e4a9-45a0-be2b-0077f54e17fb)
+![Screenshot (3013)](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/e139aaae-6adf-49e6-ab10-8aa27ded5898)
+![Screenshot (3009)](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/9905c105-3863-4d3f-9697-162f557174f3)
+![Screenshot (3008)](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/3b878627-ca5f-4e07-ba91-6f6151d5a1ec)
+![Screenshot 2024-02-21 211837](https://github.com/Akhilbmsb/TravelMemory/assets/54345937/c9d56ddf-ef2d-4057-8050-2acc6daf4afc)
 
 
 
